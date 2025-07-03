@@ -4,7 +4,7 @@
   publish = "."
 
 [functions]
-  node_bundler = "zisi"
+  node_bundler = "esbuild"  # Changed from "zisi"
   external_node_modules = ["@anthropic-ai/sdk"]
 
 [[headers]]
