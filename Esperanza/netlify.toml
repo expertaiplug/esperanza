@@ -1,6 +1,6 @@
 [build]
   command = "npm install"
-  functions = "./netlify/functions"  # Look in current directory
+  functions = "netlify/functions"
   publish = "."
 [functions]
   node_bundler = "zisi"
